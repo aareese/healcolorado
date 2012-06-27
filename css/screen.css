@@ -1,0 +1,176 @@
+/* colors
+black text:#1a1a1a
+black background:#1a1919
+gray text:#cccccc
+dark gray text:#b2b2b2
+white background:#fefff7
+green:#308c4a
+orange:#e24414
+yellow:#bbb10c
+ */
+
+/* global
+ */
+
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;}
+
+a { text-decoration: none; color: #9C4840;}
+a:hover { text-decoration: underline;}
+span {color: #9C4840;}
+
+h1, h2, h3, h4, h5, h6 {font-weight:bold; color:#222;}
+h1 {font-size:28px;line-height:1;margin-bottom:0.5em;}
+h2 {font-size:2em;margin-bottom:0.75em;}
+h3 {font-size:1.5em;line-height:1;margin-bottom:1em;}
+h4 {font-size:1.2em;line-height:1.25;margin-bottom:1.25em;height:1.25em;}
+h5 {font-size:1em;font-weight:bold;margin-bottom:1.5em;}
+h6 {font-size:1em;font-weight:bold;}
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin:0;}
+p {margin:0 0 1.5em;}
+p img {float:left;margin:1.5em 1.5em 1.5em 0;padding:0;}
+p img.right {float:right;margin:1.5em 0 1.5em 1.5em;}
+blockquote {margin:1.5em;color:#666;font-style:italic;}
+strong {font-weight:bold;}
+em, dfn {font-style:italic;}
+dfn {font-weight:bold;}
+sup, sub {line-height:0;}
+abbr, acronym {border-bottom:1px dotted #666;}
+address {margin:0 0 1.5em;font-style:italic;}
+del {color:#666;}
+pre, code {margin:1.5em 0;white-space:pre;}
+pre, code, tt {font:1em 'andale mono', 'lucida console', monospace;line-height:1.5;}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+body {background: url(../images/bg_bottom.jpg); background-repeat: repeat; font: normal 75% Verdana, sans-serif; line-height:1.5em; color: #222;}
+
+.top {float: left; width: 100%; background: url(../images/bg_top.png); background-repeat: repeat-x; height: 510px;}
+
+.container {position: relative; width: 990px; margin: auto; border: 0px solid black; height: 500px; border: 0px solid black;}
+
+.shirt img {float: left;}
+
+.info {float: left; width: 310px; height: auto; padding: 20px; background: url(../images/info_bg.png); 
+background-repeat: repeat; margin-top: 70px; line-height: 1.8em; }
+
+.moreinfo {float: right; width: 310px; height: auto; padding: 5px; margin-top: 30px; margin-right: 100px; color: #999; line-height: 1.8em; text-align: justify; margin-bottom: 300px;}
+.moreinfo h1 {font-size: 24px; color: #999;}
+.moreinfo p {padding-left: 0px;}
+
+.info p {margin-bottom: 20px;} 
+
+.shadow {
+    -moz-box-shadow: 0px 0px 18px #888;
+    -webkit-box-shadow: 0px 0px 18px #888;
+    box-shadow: 0px 0px 18px #888;
+  }
+  
+.size {font-size: 18px; font-weight: bold; padding:0;padding-left: 0px; vertical-align: top;
+margin-bottom: 18px; width: 233px; border: 0px solid black; list-style: none; color: #333;}
+
+.options {float: left; position: relative; border: 0px solid black; padding-left: 0px; margin-right: 0px; margin-top: -7px; }
+
+.options a {display: block; height: 18px; background: #333; min-width: 10px; margin-left: 5px; padding: 5px 5px 5px 5px; color: #fff; text-align: center; font-size: 80%; line-height: 1.3em; border-radius: .25em;}
+
+.options a:hover {text-decoration: none; background:  #555;}
+
+.options li {display: block; float: left; position: relative;}
+
+.pricetag {position: absolute; top: 163px; right: 16px; width: 150px; height: 82px; background: url(../images/pricetag2.png); font: Arial, Helvetica, sans-serif; font-size: 48px; font-weight: bold; color: #fff;}
+
+.facebook {padding: 3px 6px 3px 6px; border: 1px solid #999; background: #DDE5ED; color: #2D67A2; margin-left: 50px; float:left;}
+
+.facebook:hover {border: 1px solid #333;}
+
+.facebook img { position: relative; top: 3px; }
+
+.twitter-share-button {float: right; margin-right: 50px;}
+
+.share-buttons {border: 0px solid black;}
+
+  .round {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius:    3px;
+  }
+ 
+ .other {text-align: center; font-size: 90%; margin-bottom: 10px; }
+ 
+ .other a {color: #444;}
+ 
+ .footer {float: right; width: 100%; padding: 10px; background: url(../images/bg_top.png) repeat-x 0 -30px; text-align: center;}
+ 
+input[type=text], input[type=password], textarea, select { padding: 5px; background-color:#444; font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
+border:1px solid #bbb; color: #fff; width: 200px;}
+textarea {width: 310px;}
+input[type=text]:focus, textarea:focus, select:focus {border-color:#666;}
+input[type=text], textarea, select {margin:0.5em 0;}
+input[type=button] {background: #aaa; border: 1px solid #444; padding: 5px 10px 5px 10px;}
+input[type=button]:hover {background: #ddd;}
+
+textarea, input[type=text] {
+  outline-color: #09F;
+  outline-width: thick;
+  resize: none;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;}
+
+.shirt {
+    margin: 70px 30px 0 0;
+    width: 576px;
+    float: left;
+}
+
+h2 {
+    color: #c52934;
+}
+
+.options {
+    margin: 0 0 20px 0;
+}
+
+p.float {
+    display:block;
+    float: left;
+}
+  
+
+.about {
+    float: left;
+    width: 500px;
+    margin-top: 30px;
+    color: #999;
+    line-height: 1.8em;
+}
+
+.about img {
+    border: solid 10px #0C0C0C;
+    border-radius: 1em;
+    margin-bottom: 20px;
+}
+
+
+.twitter-links {
+    float: left;
+    width: 980px;
+    margin-left: 10px;
+    margin-top: 150px;
+
+}
+
+.twitter-links li {
+    float:left;
+    margin-right: 20px;
+}
+
+
+/* clearfix */
+
+.cf:before, .cf:after { content: ""; display: table; }
+.cf:after { clear: both; }
+.cf { zoom: 1; }
